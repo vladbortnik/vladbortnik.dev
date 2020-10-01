@@ -1,0 +1,17 @@
+__pycache__
+*.pyc
+*.log
+/postgres-data
+
+*.crt
+*.key
+*.pem
+key.json
+
+.DS_Store
+*.swp
+/jupyter
+/temp
+bundle.js
+bundle.js.map
+node_modules/
