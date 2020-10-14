@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.jsx",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "4.43",
+    "webpack-cli": "3.3.12",
+    "@babel/core": "7.10.4",
+    "@babel/cli": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "@babel/preset-react": "7.10.4",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/plugin-transform-runtime": "7.10.4",
+    "babel-loader": "8.1.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "5.2.0",
+    "axios": "0.19.2",
+    "@sentry/browser": "5.19.0"
+  }
+}
