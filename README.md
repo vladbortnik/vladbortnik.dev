@@ -41,6 +41,9 @@
 
 `sudo docker-compose up`
 
+### 6. Get Letsencrypt certificate
+
+`./init-letsencrypt.sh`
 
 # How to stop this project:
 

@@ -2,14 +2,26 @@ version: '3'
 services:
   http_server:
     container_name: http-server
+    image: nginx:1.15-alpine
     build: ./http-server
     volumes:
       - ./http-server/nginx.config:/etc/nginx/sites-enabled/default
+      # - ./data/nginx:/etc/nginx/conf.d
       - ./web-client/app/static:/srv/static
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
     ports:
       - "80:80"
       - "443:443"
-    
+
+  certbot:
+    container_name: certbot
+    image: certbot/certbot
+    volumes:
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+
   web_client:
     container_name: web-client
     build: ./web-client
