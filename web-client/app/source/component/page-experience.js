@@ -80,18 +80,20 @@ const ExperiencePage = ({classes}) =>
                   justifyContent='space-between'
                   alignItems='stretch'
                   flexWrap='wrap'>
-                <Typography variant='h6'>Identity and Access Management (IAM) module</Typography>
-                <Typography>March 2020 - Present</Typography>
+                <Typography variant='h6'>BACK-END DEVELOPER at Npartner, LLC | Document Processing Project (NDA)</Typography>
+                <Typography>Jan 2020 - Present</Typography>
               </Box>
 
               {/* Bullets */}
               <Box pt={1} color='text.light'>
+                <Typography>Commercial Web ApplicaJon that works with Big Data.</Typography>
                 <ul className={classes.bullets}>
-                  <li>Implemented Authentication and Authorization features as a part of a distributed team</li>
-                  <li>Automation Unit Testing on Python</li>
-                  <li>Technical Documentation</li>
-                  <li>Localization and Internationalization</li>
-                  <li>Debugging and Bug-fixing</li>
+                  <li>Authentication module, Identity and Access Management (IAM)</li>
+                  <li>Automation Unit Testing on Python (pytest) </li>
+                  <li>Creation REST API with Flask framework</li>
+                  <li>Designing Data Model with SQLAlchemy (Postgres)</li>
+                  <li>Setting up Continuous Integration with Docker Containers</li>
+                  <li>Deployment on Google Cloud Platform, SSL, SSH </li>
                 </ul>
               </Box>
 
@@ -112,7 +114,7 @@ const ExperiencePage = ({classes}) =>
                 <Box display='flex'>
                   <Box ml={1} mt={2}>
                     <Chip icon={<Icon color='action'>schedule</Icon>}
-                          label='Part Time'
+                          label='Contract'
                           className={classes.chipSchedule}/>
                   </Box>
 

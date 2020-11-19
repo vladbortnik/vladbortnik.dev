@@ -24,8 +24,11 @@ const styles = theme => ({
     color: theme.palette.secondary.main
   },
   avatar: {
-    height: '180px',
-    width: '250px',
+    height: '280px',
+    width: '400px',
+  },
+  drawer: {
+    margin: '10px'
   }
 })
 
@@ -53,7 +56,7 @@ const NavTabs = ({classes}) =>
           <SwipeableDrawer open={drawer.isOpen}
                            onClose={event => actions.closeDrawer()}
                            onOpen={event => actions.openDrawer()}>
-            <Box width={250}
+            <Box width={400}
                  height='100%'
                  bgcolor='primary.main'
                  color='secondary.main'
@@ -67,8 +70,9 @@ const NavTabs = ({classes}) =>
                   </Grid>
 
                   <Grid item spacing={2}>
-                    <Box bgcolor='primary'>
-                      <Grid container alignItems='center'>
+                    <Box bgcolor='primary' p={2}>
+                      <Grid container
+                            alignItems='center'>
                         <Grid item>
                           <Typography variant='h6' color='secondary'>Contacts</Typography>
                         </Grid>
@@ -77,37 +81,7 @@ const NavTabs = ({classes}) =>
                   </Grid>
 
                   <Grid item spacing={2}>
-                    <Box bgcolor='primary'>
-                      <Grid container alignItems='center'>
-                        <Grid item>
-                          <Box pr={1}>
-                            <Icon color='secondary'>link</Icon>
-                          </Box>
-                        </Grid>
-                        <Grid item>
-                          <Typography variant='h6' color='secondary'>http://link.com</Typography>
-                        </Grid>
-                      </Grid>
-                      <Grid container alignItems='center'>
-                        <Grid item>
-                          <Box pr={1}>
-                            <Icon color='secondary'>phone</Icon>
-                          </Box>
-                        </Grid>
-                        <Grid item>
-                          <Typography variant='h6' color='secondary'>111-222-333</Typography>
-                        </Grid>
-                      </Grid>
-                      <Grid container alignItems='center'>
-                        <Grid item>
-                          <Box pr={1}>
-                            <Icon color='secondary'>room</Icon>
-                          </Box>
-                        </Grid>
-                        <Grid item>
-                          <Typography variant='h6' color='secondary'>New York</Typography>
-                        </Grid>
-                      </Grid>
+                    <Box bgcolor='primary' p={2}>
                       <Grid container alignItems='center'>
                         <Grid item>
                           <Box pr={1}>
@@ -116,6 +90,94 @@ const NavTabs = ({classes}) =>
                         </Grid>
                         <Grid item>
                           <Typography variant='h6' color='secondary'>vladbortnik@pm.me</Typography>
+                        </Grid>
+                      </Grid>
+
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>link</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>http://linkedin.com/in/vlad--bortnik</Typography>
+                        </Grid>
+                      </Grid>
+
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>link</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>http://github.com/vladbortnik</Typography>
+                        </Grid>
+                      </Grid>
+
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>phone</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>+1(929)842-4228 (Mobile)</Typography>
+                        </Grid>
+                      </Grid>
+
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>phone</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>+1(929)842-4228 (Skype)</Typography>
+                        </Grid>
+                      </Grid>
+
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>phone</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>vladbortnik@pm.me (Skype)</Typography>
+                        </Grid>
+                      </Grid>
+
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>phone</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>+1(929)842-4228 (Whatsapp)</Typography>
+                        </Grid>
+                      </Grid>
+
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>phone</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>+1(929)842-4228 (Viber)</Typography>
+                        </Grid>
+                      </Grid>
+
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>room</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>New York Metro Area</Typography>
                         </Grid>
                       </Grid>
                     </Box>

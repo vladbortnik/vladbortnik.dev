@@ -55,9 +55,6 @@ const styles = {
 
 const HomePage = ({classes}) =>
   <ErrorBoundary>
-    <video autoPlay muted loop className={classes.myVideo}>
-      <source src="/static/back.mp4" type="video/mp4"></source>
-    </video>
     {/* Set Box Padding same as the Grid Item spacing */}
     <Box className={classes.content} p={2}>
 
@@ -91,7 +88,7 @@ const HomePage = ({classes}) =>
                   justifyContent='space-between'
                   alignItems='stretch'
                   flexWrap='wrap'>
-                <Typography variant='h6'>My name is Vlad Bortnik and I am a recent college graduate with a Bachelor's Degree in Computer Science from Brooklyn College, City University of New York. I am an accomplished coder and programmer, and I enjoy using my skills to contribute to the exciting technological advances of my company.</Typography>
+                <Typography variant='h6'>A firm believer in the growth mindset. Lover of learning. My goal is to improve the lives of those I come in contact with through self-development. Have a strong mathematical background and analytical type of thinking. Interests include different areas of Computer Science: AI, Cyber Security, IoT, Web Development, and more. Love coding and enjoy to solve the hard technical problems. Always up to learning something new. Teach me!</Typography>
                 <Typography>New York, November 2020</Typography>
               </Box>
 
