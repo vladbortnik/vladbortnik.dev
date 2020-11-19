@@ -102,7 +102,7 @@ const ExperiencePage = ({classes}) =>
                 <Box ml={1} mt={2}>
                   <Button variant='outlined'
                           color='secondary'
-                          href='https://github.com/zhorzh/nevseremos'>
+                          href='http://github.com/vladbortnik'>
                     <Icon color='secondary'>language</Icon>
                     <Box ml={1}>repository</Box>
                   </Button>
@@ -117,15 +117,21 @@ const ExperiencePage = ({classes}) =>
                   </Box>
 
                   <Box ml={1} mt={2}>
+                    <Chip icon={<Icon color='action'>room</Icon>}
+                          label='Remote'
+                          className={classes.chipLocation}/>
+                  </Box>
+
+                  <Box ml={1} mt={2}>
                     <Chip icon={<Icon color='action'>code</Icon>}
                           label='Python'
                           className={classes.chipSkill}/>
                   </Box>
 
                   <Box ml={1} mt={2}>
-                    <Chip icon={<Icon color='action'>room</Icon>}
-                          label='Remote'
-                          className={classes.chipLocation}/>
+                    <Chip icon={<Icon color='action'>code</Icon>}
+                          label='Flask'
+                          className={classes.chipSkill}/>
                   </Box>
                 </Box> {/* END OF chips */}
               </Box> {/* END OF Link and chips */}
@@ -237,6 +243,12 @@ const ExperiencePage = ({classes}) =>
                   </Box>
 
                   <Box ml={1} mt={2}>
+                    <Chip icon={<Icon color='action'>room</Icon>}
+                          label='New York'
+                          className={classes.chipLocation}/>
+                  </Box>
+
+                  <Box ml={1} mt={2}>
                     <Chip icon={<Icon color='action'>code</Icon>}
                           label='Python'
                           className={classes.chipSkill}/>
@@ -249,9 +261,9 @@ const ExperiencePage = ({classes}) =>
                   </Box>
 
                   <Box ml={1} mt={2}>
-                    <Chip icon={<Icon color='action'>room</Icon>}
-                          label='Brooklyn'
-                          className={classes.chipLocation}/>
+                    <Chip icon={<Icon color='action'>code</Icon>}
+                          label='Flask'
+                          className={classes.chipSkill}/>
                   </Box>
                 </Box> {/* END OF chips */}
               </Box> {/* END OF Link and chips */}
@@ -307,15 +319,21 @@ const ExperiencePage = ({classes}) =>
                   </Box>
 
                   <Box ml={1} mt={2}>
+                    <Chip icon={<Icon color='action'>room</Icon>}
+                          label='New York'
+                          className={classes.chipLocation}/>
+                  </Box>
+
+                  <Box ml={1} mt={2}>
                     <Chip icon={<Icon color='action'>code</Icon>}
                           label='Python'
                           className={classes.chipSkill}/>
                   </Box>
 
                   <Box ml={1} mt={2}>
-                    <Chip icon={<Icon color='action'>room</Icon>}
-                          label='New York'
-                          className={classes.chipLocation}/>
+                    <Chip icon={<Icon color='action'>code</Icon>}
+                          label='Flask'
+                          className={classes.chipSkill}/>
                   </Box>
                 </Box> {/* END OF chips */}
               </Box> {/* END OF Link and chips */}
