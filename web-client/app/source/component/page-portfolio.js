@@ -137,6 +137,77 @@ const PortfolioPage = ({classes}) =>
             </Box> {/* END OF Paper Box */}
           </Paper>
         </Grid>
+
+        <Grid item spacing={2}>
+          <Paper square elevation={3}>
+            <Box bgcolor='primary.main' p={2}>
+              {/* Job Title */}
+              <Box p={2} color='secondary.main'
+                  display='flex'
+                  flexDirection='row'
+                  justifyContent='space-between'
+                  alignItems='stretch'
+                  flexWrap='wrap'>
+                <Typography variant='h6'>BACK-END DEVELOPER at Npartner, LLC | Photo Stock Backend and API, Shalletstock.com
+</Typography>
+                <Typography>Aug 2016 - Dec 2016</Typography>
+              </Box>
+
+              {/* cards */}
+              <Box pb={0} color='secondary.main'
+                  display='flex'
+                  flexDirection='row'
+                  justifyContent='space-around'
+                  alignItems='flex-start'
+                  flexWrap='wrap'>
+                <Card className={classes.card}>
+                  <CardHeader title="Login and Signup"
+                              subheader="Aug 4, 2016">
+                  </CardHeader>
+
+                  <CardMedia className={classes.media}
+                            image="/static/images/shallet1.png"
+                            title="img1"></CardMedia>
+                  <CardContent>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      Created login and signup features with Python and Flask framework. Allowed users to register on the website and upload the images.
+                    </Typography>
+                  </CardContent>
+                </Card>
+
+                <Card className={classes.card}>
+                  <CardHeader title="Authentication"
+                              subheader="September 22, 2016">
+                  </CardHeader>
+
+                  <CardMedia className={classes.media}
+                            image="/static/images/shallet2.png"
+                            title="img1"></CardMedia>
+                  <CardContent>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      Setting up the Postgres database, modeling the data and creating REST API. Automated the testing with pytest and increased the general reliability of the project. 
+                    </Typography>
+                  </CardContent>
+                </Card>
+
+                <Card className={classes.card}>
+                  <CardHeader title="Deployment and Maintainence"
+                              subheader="October 1, 2016">
+                  </CardHeader>
+
+                  <CardMedia className={classes.media}
+                            image="/static/images/shallet3.png"
+                            title="img1"></CardMedia>
+                  <CardContent>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      Deployed the project to the Google Cloud production server. Setting up the DNS, encryption certificates and Docker containers for easy maintenence of the website.
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Box>
+            </Box> {/* END OF Paper Box */}
+          </Paper>
+        </Grid>
       </Grid>
     </Box>
   </ErrorBoundary>
