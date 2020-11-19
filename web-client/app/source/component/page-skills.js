@@ -86,14 +86,11 @@ const ContactsPage = ({classes}) =>
                     </ul>
                   </li>
 
-                  <li>Databases: Postgres, MySQL, SQLite
+                  <li>Databases:
                     <ul>
-                      <li>Python</li>
-                      <li>C++</li>
-                      <li>Java</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>SQL</li>
+                      <li>Postgres</li>
+                      <li>MySQL</li>
+                      <li>SQLite</li>
                     </ul>
                   </li>
 
