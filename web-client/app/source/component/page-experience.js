@@ -244,12 +244,6 @@ const ExperiencePage = ({classes}) =>
 
                   <Box ml={1} mt={2}>
                     <Chip icon={<Icon color='action'>code</Icon>}
-                          label='Javascript'
-                          className={classes.chipSkill}/>
-                  </Box>
-
-                  <Box ml={1} mt={2}>
-                    <Chip icon={<Icon color='action'>code</Icon>}
                           label='HTML'
                           className={classes.chipSkill}/>
                   </Box>
@@ -315,12 +309,6 @@ const ExperiencePage = ({classes}) =>
                   <Box ml={1} mt={2}>
                     <Chip icon={<Icon color='action'>code</Icon>}
                           label='Python'
-                          className={classes.chipSkill}/>
-                  </Box>
-
-                  <Box ml={1} mt={2}>
-                    <Chip icon={<Icon color='action'>code</Icon>}
-                          label='JavaScript'
                           className={classes.chipSkill}/>
                   </Box>
 
