@@ -26,6 +26,9 @@ const styles = {
     backgroundColor: theme.palette.primary.light,
     flexGrow: 1,
   },
+  hackerrank: {
+    color: '#ffffff'
+  },
   bullets: {
     marginTop: '0px',
     marginBottom: '0px',
@@ -83,7 +86,7 @@ const EducationPage = ({classes}) =>
 
               {/* Bullets */}
               <Box pt={1} color='text.light'>
-                <Typography>Bachelor of Science, Computer and Information Science</Typography>
+                <Typography>BS in Computer Science</Typography>
                 <ul className={classes.bullets}>
                   <li>Relevant Coursework:
                     <ul>
@@ -103,7 +106,7 @@ const EducationPage = ({classes}) =>
                     <li>Upsilon Pi Epsilon Honor Society for CIS</li>
                     <li>Dean’s List</li>
                   </ul>
-                  <li>HackerRank: Gold Badge (Python)</li>
+                  <li className={classes.hackerrank}>HackerRank: Gold Badge (Python)</li>
                 </ul>
               </Box>
             </Box> {/* END OF Paper Box */}

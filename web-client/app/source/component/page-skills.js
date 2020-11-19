@@ -29,6 +29,10 @@ const styles = {
     backgroundColor: theme.palette.primary.main,
     color: theme.palette.secondary.main,
   },
+  bullets: {
+    marginTop: '0px',
+    marginBottom: '0px',
+  },
 }
 
 const ContactsPage = ({classes}) =>
@@ -70,25 +74,53 @@ const ContactsPage = ({classes}) =>
 
             <Grid item spacing={2}>
               <Box color={'text.light'}>
-                <ul>
-                  <li>
-                    Programming languages: Python, C++, Java, HTML, CSS, SQL
+                <ul className={classes.bullets}>
+                  <li>Programming languages:
+                    <ul>
+                      <li>Python</li>
+                      <li>C++</li>
+                      <li>Java</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SQL</li>
+                    </ul>
                   </li>
 
-                  <li>
-                    Databases: Postgres, MySQL, SQLite
+                  <li>Databases: Postgres, MySQL, SQLite
+                    <ul>
+                      <li>Python</li>
+                      <li>C++</li>
+                      <li>Java</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>SQL</li>
+                    </ul>
                   </li>
 
-                  <li>
-                    Frameworks: Flask, Django, REST API
+                  <li>Frameworks:
+                    <ul>
+                      <li>Flask</li>
+                      <li>Django</li>
+                      <li>REST API</li>
+                    </ul>
                   </li>
 
-                  <li>
-                    Operating Systems/Servers: Linux/Unix, Google Cloud Plaiorm, Docker Containers
+                  <li>Operating Systems/Servers:
+                    <ul>
+                      <li>Linux/Unix</li>
+                      <li>Google Cloud Platform</li>
+                      <li>Docker Containers</li>
+                    </ul>
                   </li>
 
-                  <li>
-                    Other: Bash, SSL, SSH, git, hashing, etc.
+                  <li>Other:
+                    <ul>
+                      <li>Bash</li>
+                      <li>SSL</li>
+                      <li>SSH</li>
+                      <li>git</li>
+                      <li>hashing</li>
+                    </ul>
                   </li>
                 </ul>
               </Box>
