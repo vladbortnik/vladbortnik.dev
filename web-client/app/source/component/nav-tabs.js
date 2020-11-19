@@ -39,9 +39,11 @@ const NavTabs = ({classes}) =>
             variant="scrollable"
             value={location.pathname}
             onChange={(event, value) => dispatch({type: 'SET_ACTIVE_TAB', tab: value})}>
-            <Tab value='/' label='resume' component={Link} to='/' />
+            <Tab value='/' label='home' component={Link} to='/' />
+            <Tab value='/experience' label='experience' component={Link} to='/experience' />
+            <Tab value='/education' label='education' component={Link} to='/education' />
             <Tab value='/portfolio' label='portfolio' component={Link} to='/portfolio' />
-            <Tab value='/contacts' label='contacts' component={Link} to='/contacts' />
+            <Tab value='/skills' label='skills' component={Link} to='/skills' />
           </Tabs>
         )}
       </AppContextConsumer>
@@ -65,32 +67,57 @@ const NavTabs = ({classes}) =>
                   </Grid>
 
                   <Grid item spacing={2}>
-                    <Box ml={12} mt={2}>
-                      <Typography variant='h5'>skills</Typography>
+                    <Box bgcolor='primary'>
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>Contacts</Typography>
+                        </Grid>
+                      </Grid>
                     </Box>
+                  </Grid>
 
-                    <Box color={'text.light'}>
-                      <ul>
-                        <li>
-                          Programming languages: Python, C++, Java, HTML, CSS, JavaScript, SQL
-                        </li>
-
-                        <li>
-                          Databases: Postgres, MySQL, SQLite
-                        </li>
-
-                        <li>
-                          Frameworks: Flask, Django, REST API
-                        </li>
-
-                        <li>
-                          Opera]ng Systems/Servers: Linux/Unix, Google Cloud Plaiorm, Docker Containers
-                        </li>
-
-                        <li>
-                          Other: Bash, SSL, SSH, git, hashing, etc.
-                        </li>
-                      </ul>
+                  <Grid item spacing={2}>
+                    <Box bgcolor='primary'>
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>link</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>http://link.com</Typography>
+                        </Grid>
+                      </Grid>
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>phone</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>111-222-333</Typography>
+                        </Grid>
+                      </Grid>
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>room</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>New York</Typography>
+                        </Grid>
+                      </Grid>
+                      <Grid container alignItems='center'>
+                        <Grid item>
+                          <Box pr={1}>
+                            <Icon color='secondary'>mail</Icon>
+                          </Box>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant='h6' color='secondary'>vladbortnik@pm.me</Typography>
+                        </Grid>
+                      </Grid>
                     </Box>
                   </Grid>
                 </Grid>

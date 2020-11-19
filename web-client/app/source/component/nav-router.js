@@ -4,9 +4,11 @@ import history from './../history'
 
 import ErrorBoundary from './error-boundary'
 import NavAppBar from './nav-app-bar'
-import ResumePage from './page-resume'
+import HomePage from './page-home'
+import ExperiencePage from './page-experience'
+import EducationPage from './page-education'
 import PortfolioPage from './page-portfolio'
-import ContactsPage from './page-contacts'
+import SkillsPage from './page-skills'
 
 
 const NavRouter = () =>
@@ -15,10 +17,11 @@ const NavRouter = () =>
       <Route path='/' render={({location}) => (
         <Fragment>
           <NavAppBar />
-
-          <Route exact path='/' component={ResumePage} />
+          <Route exact path='/' component={HomePage} />
+          <Route exact path='/experience' component={ExperiencePage} />
+          <Route exact path='/education' component={EducationPage} />
           <Route exact path='/portfolio' component={PortfolioPage} />
-          <Route exact path='/contacts' component={ContactsPage} />
+          <Route exact path='/skills' component={SkillsPage} />
         </Fragment>
       )} />
     </Router>

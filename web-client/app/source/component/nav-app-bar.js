@@ -6,7 +6,9 @@ import {
   Toolbar,
   Icon,
   IconButton,
-  Typography
+  Typography,
+  Button,
+  Box
 } from 'material-ui'
 
 import ErrorBoundary from './error-boundary'
@@ -29,8 +31,17 @@ const NavAppBar = ({classes}) =>
           )}
         </AppContextConsumer>
 
-        <Typography variant='h6' color='secondary'>
-          Vlad Bortnik
+        <Typography variant='h6' color='secondary' >
+                  <Button
+                          color='secondary'
+                          href='https://vladbortnik.dev'>
+                    <Box ml={1}>Vlad Bortnik</Box>
+                  </Button>
+                  <Button
+                          color='secondary'
+                          href='/static/resume.pdf'>
+                    <Box ml={1}>[resume.pdf]</Box>
+                  </Button>
         </Typography>
       </Toolbar>
       <NavTabs />
