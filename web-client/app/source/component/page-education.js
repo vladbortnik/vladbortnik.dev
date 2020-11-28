@@ -23,7 +23,11 @@ const styles = {
       // 100 vertical height - (Desktop Toolbar[64px] + Tabs[48px])
       minHeight: 'calc(100vh - 112px)',
     },
-    backgroundColor: theme.palette.primary.light,
+    // backgroundColor: theme.palette.primary.light,
+    backgroundImage: 'url(/static/images/background.jpg)',
+    backgroundRepeat: 'repeat',
+    backgroundPosition: 'center',
+    backgroundSize: '100%',
     flexGrow: 1,
   },
   hackerrank: {
@@ -44,7 +48,10 @@ const styles = {
   },
   icon: {
     textDecoration: false,
-  }
+  },
+  container: {
+    opacity: 0.9,
+  },
 }
 
 const EducationPage = ({classes}) =>
@@ -52,6 +59,7 @@ const EducationPage = ({classes}) =>
     {/* Set Box Padding same as the Grid Item spacing */}
     <Box className={classes.content} p={2}>
       <Grid container
+            className={classes.container}
             direction='column'
             alignItems='stretch'
             spacing={2}>
@@ -104,7 +112,18 @@ const EducationPage = ({classes}) =>
                   <li>Honors:</li>
                   <ul>
                     <li>Upsilon Pi Epsilon Honor Society for CIS</li>
+                    <Button
+                            color='secondary'
+                            href='/static/honors1.pdf'>
+                      <Box ml={1}>[honors1.pdf]</Box>
+                    </Button>
+
                     <li>Dean’s List</li>
+                    <Button
+                            color='secondary'
+                            href='/static/honors2.pdf'>
+                      <Box ml={1}>[honors2.pdf]</Box>
+                    </Button>
                   </ul>
                   <li className={classes.hackerrank}>HackerRank: Gold Badge (Python)</li>
                 </ul>

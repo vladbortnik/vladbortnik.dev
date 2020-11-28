@@ -42,6 +42,16 @@ const NavAppBar = ({classes}) =>
                           href='/static/resume.pdf'>
                     <Box ml={1}>[resume.pdf]</Box>
                   </Button>
+                  <Button
+                          color='secondary'
+                          href='/static/honors1.pdf'>
+                    <Box ml={1}>[honors1.pdf]</Box>
+                  </Button>
+                  <Button
+                          color='secondary'
+                          href='/static/honors2.pdf'>
+                    <Box ml={1}>[honors2.pdf]</Box>
+                  </Button>
         </Typography>
       </Toolbar>
       <NavTabs />

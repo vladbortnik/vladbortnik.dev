@@ -23,7 +23,11 @@ const styles = {
       // 100 vertical height - (Desktop Toolbar[64px] + Tabs[48px])
       minHeight: 'calc(100vh - 112px)',
     },
-    backgroundColor: theme.palette.primary.light,
+    // backgroundColor: theme.palette.primary.light,
+    backgroundImage: 'url(/static/images/background.jpg)',
+    backgroundRepeat: 'repeat',
+    backgroundPosition: 'center',
+    backgroundSize: '100%',
     flexGrow: 1,
     position: 'fixed',
     // backgroundColor: 'rgba(0, 0, 0, 0.5)',
@@ -51,15 +55,17 @@ const styles = {
     minWidth: '100%',
     minHeight: '100%',
   },
+  container: {
+    opacity: 0.9,
+  },
 }
 
 const HomePage = ({classes}) =>
   <ErrorBoundary>
     {/* Set Box Padding same as the Grid Item spacing */}
     <Box className={classes.content} p={2}>
-
-
       <Grid container
+            className={classes.container}
             direction='column'
             alignItems='stretch'
             spacing={2}>
