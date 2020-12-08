@@ -89,7 +89,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>vladbortnik@pm.me</Typography>
+                          <Typography color='secondary'>vladbortnik@pm.me</Typography>
                         </Grid>
                       </Grid>
 
@@ -100,7 +100,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>http://linkedin.com/in/vlad--bortnik</Typography>
+                          <Typography color='secondary'>http://linkedin.com/in/vlad--bortnik</Typography>
                         </Grid>
                       </Grid>
 
@@ -111,7 +111,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>http://github.com/vladbortnik</Typography>
+                          <Typography color='secondary'>http://github.com/vladbortnik</Typography>
                         </Grid>
                       </Grid>
 
@@ -122,7 +122,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>+1(929)842-4228 (Mobile)</Typography>
+                          <Typography color='secondary'>+1(929)842-4228 (Mobile)</Typography>
                         </Grid>
                       </Grid>
 
@@ -133,7 +133,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>+1(929)842-4228 (Skype)</Typography>
+                          <Typography color='secondary'>+1(929)842-4228 (Skype)</Typography>
                         </Grid>
                       </Grid>
 
@@ -144,7 +144,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>vladbortnik@pm.me (Skype)</Typography>
+                          <Typography color='secondary'>vladbortnik@pm.me (Skype)</Typography>
                         </Grid>
                       </Grid>
 
@@ -155,7 +155,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>+1(929)842-4228 (Whatsapp)</Typography>
+                          <Typography color='secondary'>+1(929)842-4228 (Whatsapp)</Typography>
                         </Grid>
                       </Grid>
 
@@ -166,7 +166,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>+1(929)842-4228 (Viber)</Typography>
+                          <Typography color='secondary'>+1(929)842-4228 (Viber)</Typography>
                         </Grid>
                       </Grid>
 
@@ -177,7 +177,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography variant='h6' color='secondary'>New York Metro Area</Typography>
+                          <Typography color='secondary'>New York Metro Area</Typography>
                         </Grid>
                       </Grid>
                     </Box>

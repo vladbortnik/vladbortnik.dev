@@ -119,11 +119,6 @@ const EducationPage = ({classes}) =>
                     </Button>
 
                     <li>Dean’s List</li>
-                    <Button
-                            color='secondary'
-                            href='/static/honors2.pdf'>
-                      <Box ml={1}>[honors2.pdf]</Box>
-                    </Button>
                   </ul>
                   <li className={classes.hackerrank}>HackerRank: Gold Badge (Python)</li>
                 </ul>
