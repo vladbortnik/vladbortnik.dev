@@ -177,7 +177,7 @@ const NavTabs = ({classes}) =>
                           </Box>
                         </Grid>
                         <Grid item>
-                          <Typography color='secondary'>New York Metro Area</Typography>
+                          <Typography color='secondary'>NYC Metropolitan Area</Typography>
                         </Grid>
                       </Grid>
                     </Box>

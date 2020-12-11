@@ -87,7 +87,6 @@ const ContactsPage = ({classes}) =>
                     <ul>
                       <li>Python</li>
                       <li>C++</li>
-                      <li>Java</li>
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>SQL</li>

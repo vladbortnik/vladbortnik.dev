@@ -95,7 +95,6 @@ const HomePage = ({classes}) =>
                   alignItems='stretch'
                   flexWrap='wrap'>
                 <Typography variant='h6'>A firm believer in the growth mindset. Lover of learning. My goal is to improve the lives of those I come in contact with through self-development. Have a strong mathematical background and analytical type of thinking. Interests include different areas of Computer Science: AI, Cyber Security, IoT, Web Development, and more. Love coding and enjoy to solve the hard technical problems. Always up to learning something new. Teach me!</Typography>
-                <Typography>New York, November 2020</Typography>
               </Box>
 
             </Box> {/* END OF Paper Box */}

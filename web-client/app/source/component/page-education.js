@@ -114,8 +114,8 @@ const EducationPage = ({classes}) =>
                     <li>Upsilon Pi Epsilon Honor Society for CIS</li>
                     <Button
                             color='secondary'
-                            href='/static/honors1.pdf'>
-                      <Box ml={1}>[honors1.pdf]</Box>
+                            href='/static/honors.pdf'>
+                      <Box ml={1}>[honors.pdf]</Box>
                     </Button>
 
                     <li>Dean’s List</li>
