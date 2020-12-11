@@ -168,8 +168,8 @@ const ExperiencePage = ({classes}) =>
               {/* Bullets */}
               <Box pt={1} color='text.light'>
                 <Typography>Volunteer Mentor Position in Non-Profit Organization</Typography>
-                <li>Helped a number of high school grads & freshmen to get used to the new environment</li>
-                <li>Was able to direct young men to choose right direcVon in future career path</li>
+                <li>Helped a number of high school grads & freshmen to get used to the new college environment</li>
+                <li>Direct young men to find the right path in career and life</li>
               </Box>
 
               {/* Link and chips */}

@@ -115,7 +115,7 @@ const EducationPage = ({classes}) =>
                     <Button
                             color='secondary'
                             href='/static/honors.pdf'>
-                      <Box ml={1}>[honors.pdf]</Box>
+                      <Box ml={1}>honors.pdf</Box>
                     </Button>
 
                     <li>Dean’s List</li>

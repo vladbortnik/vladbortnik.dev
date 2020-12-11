@@ -126,6 +126,13 @@ const ContactsPage = ({classes}) =>
                       <li>hashing</li>
                     </ul>
                   </li>
+
+                  <li>Languages:
+                    <ul>
+                      <li>English (fluent)</li>
+                      <li>Russian (expert)</li>
+                    </ul>
+                  </li>
                 </ul>
               </Box>
             </Grid>
